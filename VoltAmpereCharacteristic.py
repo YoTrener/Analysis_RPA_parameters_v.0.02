@@ -15,7 +15,7 @@ class VoltAmpereCharacteristicWindow(QWidget):
         super().__init__()
 
         # Задаем начальные значения тока
-        current = [0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5]
+        current = [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5]
 
         # Создаем виджет таблицы для ввода данных и настраиваем его
         self.table_widget = QTableWidget()
